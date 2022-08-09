@@ -1,0 +1,53 @@
+html{
+    background-image: url('corkBoardPattern.jpg');
+    height: 100%;
+    
+    
+}
+.pageStyle{
+        display: grid;
+        justify-content: center;
+        padding-top: 10%;
+         
+}
+
+
+.mainDivStyle{
+    justify-content: center;
+    background-image: url('legalPad.jpg');
+    font-family: 'Poppins', sans-serif;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 10%;
+    overflow: auto;
+
+
+}
+
+.addTaskButtonStyle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.clearTaskButtonDiv{
+    padding-top: 10px;
+}
+
+.clearTaskButtonStyle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* position: relative; */
+}
+
+
+.toDoListItemStyles{
+    padding-bottom: 5%;
+    font-weight: bold;
+        
+}
+
+.inputFieldStyle{
+    margin-right: 10px;
+}
